@@ -34,4 +34,6 @@ cp $(dirname $0)/../files/start_haproxy.sh ${BUILD_DIR}/start_haproxy.sh || exit
 
 echo "=-=-=-=-=-> Done."
 
+echo "$PORT"
+
 exit 0
